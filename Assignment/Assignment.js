@@ -5,7 +5,7 @@ function validateLogin() {
   
     if (username === "" || password === "") {
       errorMsg.textContent = "Username and password are required.";
-      return false; // prevent form submission
+      return false;
     }
     if (username === "admin" && password === "1234") {
         window.open("loginsuccess.html", "_blank");
