@@ -7,7 +7,7 @@ function validateLogin() {
       errorMsg.textContent = "Username and password are required.";
       return false;
     }
-    if (username === "zmqrcodes" && password === "zmqr@1234") {
+    if (username === "admin" && password === "1234") {
         window.open("loginsuccess.html", "_blank");
         errorMsg.textContent = "";
         return false;
